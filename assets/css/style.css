@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #777777;
+}
+
+h2 {
+    font-family: 'Oswald', Sans-serif;
+    color: #555555;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+}
+
+#menu li {
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
