@@ -206,3 +206,13 @@ footer {
     padding: 5%;
     color: #777777;
 }
+
+#photos {
+    line-height: 0;
+    columns: 4;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+}
